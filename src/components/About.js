@@ -1,16 +1,16 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Image1 from '../assets/images/img1.jpeg'
 
-const HerSection = () => {
+const About = () => {
   return (
     <div
-      className='heroSection'
+      className='About'
       style={{ backgroundColor: 'black', color: 'white', padding: '50px 0' }}
     >
       <Container>
         <Row>
           <Col md={6}>
+            <h1>About US</h1>
             <p>
               Lorem ipsum dolor sit amet. Et velit eius eos nesciunt doloribus
               aut natus ipsa in error omnis. Id ducimus voluptatem sed nobis
@@ -22,14 +22,10 @@ const HerSection = () => {
               fugiat.
             </p>
           </Col>
-
-          <Col md={6}>
-            <img src={Image1} alt='bakery' className='img-fluid' />
-          </Col>
         </Row>
       </Container>
     </div>
   )
 }
 
-export default HerSection
+export default About
